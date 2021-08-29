@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="calculator.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <section id="calculator">
+        <div class="decimal-div">
+          <input id="use-decimals" type="checkbox" />
+          <label for="use-decimals">round to</label>
+          <select name="decimal-number" id="decimal-number">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+        </div>
+        <ul>
+          <li>4</li>
+          <li>6</li>
+          <li>8</li>
+          <li>10</li>
+          <li>12</li>
+          <li>14</li>
+          <li>16</li>
+        </ul>
+        <p>clear results</p>
+        <input type="number" name="first-number" id="second-number" />
+        <select name="operator" id="operator">
+          <option value="+">+</option>
+          <option value="-">-</option>
+          <option value="*">*</option>
+          <option value="/">/</option>
+        </select>
+        <input type="number" name="second-number" id="second-number" />
+        <button>Calculate</button>
+      </section>
+    </main>
+  </body>
+  <script src="calculator.js"></script>
+</html>
