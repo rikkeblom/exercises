@@ -58,6 +58,17 @@ const valWulfric = HPname.substring(15, 22);
 const valian = HPname.substring(25, 28);
 const valbus = HPname.substring(2, 5);
 console.log(`_${valian}_`);
+//find the first name
+const firstspace = HPname.indexOf(" ");
+const firstHPname = HPname.substring(0, firstspace);
+const lastspace = HPname.lastIndexOf(" ");
+const lastHPname = HPname.substring(lastspace + 1);
+const middleHPname = HPname.substring(firstspace + 1, lastspace);
+const last10 = HPname.substring(HPname.length, HPname.length - 10);
+console.log(`the first name is _${firstHPname}_`);
+console.log(`the last name is _${lastHPname}_`);
+console.log(`the middle name is _${middleHPname}_`);
+console.log(last10);
 
 //-----------------------------------------
 //String methods
