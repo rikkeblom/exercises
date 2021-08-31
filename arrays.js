@@ -61,8 +61,9 @@ const arr1 = str.split();
 console.log(arr1);
 //split makes the entire string into an array item
 let arr2 = Array.from(str);
-arr2 = arr2.toString();
+// arr2 = arr2.toString();
+arr2 = arr2.join(" ");
 console.log(arr2);
 //array from makes each character into an array item
-//toString turns the array back into a string
-//- this time with commas between each character
+//toString() turns the array back into a string with commas between each character
+//join() lets you choose the seperator - fx spaces instead of the commas
